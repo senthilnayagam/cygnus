@@ -1,8 +1,8 @@
 MAINTAINER Senthil Nayagam "senthil@railsfactory.com"
 FROM base
 
-RUN sudo apt-get -y update
-RUN sudo apt-get install -y htop procps git curl wget python-software-properties redis-server sudo
+RUN  apt-get -y update
+RUN  apt-get install -y htop procps git curl wget python-software-properties sudo
 #mongodb
 
 RUN sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10
